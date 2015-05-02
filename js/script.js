@@ -36,7 +36,7 @@ $(document).ready(function(){
 			case "nth":
 				// Generate sequence until nth number
 				if(number > 2){
-					for(var index = 1; (index <= number) && (_next < Infinity); index += 1){
+					for(var index = 1; (index <= number); index += 1){
 						// Fibonacci: next = this + last
 						_next = _this + _last;
 						sequence.push(_next);
